@@ -25,3 +25,6 @@ logs/
 # IDE
 .vscode/
 .idea/
+.agents/
+.claude/
+Readme
