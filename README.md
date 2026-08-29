@@ -404,7 +404,7 @@ The evaluation checks behavior across categories including:
 
 The final evaluation achieved:
 
-
+```text
 ==========================================
 FINAL RESULTS
 ==========================================
@@ -427,6 +427,7 @@ abstention:              1/1  (100.0%)
 source-conflict:         1/1  (100.0%)
 
 ==========================================
+```
 ![alt text](image.png)
 
 ### Baseline
