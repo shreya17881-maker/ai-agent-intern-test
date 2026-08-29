@@ -67,7 +67,7 @@ The agent follows two main paths:
 
 ### Main components
 
-
+```text
 app/
 ├── agent.py
 ├── order_tools.py
@@ -81,7 +81,7 @@ app/
     ├── retriever.py
     ├── vector_store.py
     └── generator.py
-
+```
 ### `agent.py`
 
 The main `AsterRowAgent` class coordinates:
@@ -462,7 +462,7 @@ They cover additional variations involving:
 
 The repository contains unit and integration tests for the main components.
 
-
+```text
 app/
 ├── test_agent.py
 ├── test_chunker.py
@@ -473,7 +473,7 @@ app/
 ├── test_ollama.py
 ├── test_order_tools.py
 └── test_retrieval.py
-
+```
 
 Run all tests with:
 
@@ -748,9 +748,9 @@ For example:
 ---
 
 # Repository Structure
-
-
-.
+```text
+ai-agent-intern-test/
+│
 ├── README.md
 ├── .env.example
 ├── .gitignore
@@ -761,18 +761,19 @@ For example:
 │   ├── agent.py
 │   ├── index_knowledge.py
 │   ├── logger.py
-│   ├── order_tools.py
-│   │
-│   ├── rag/
-│   │   ├── __init__.py
-│   │   ├── chunker.py
-│   │   ├── generator.py
-│   │   ├── loader.py
-│   │   ├── ranker.py
-│   │   ├── retriever.py
-│   │   └── vector_store.py
-│   │
-│   └── tests...
+│   └── order_tools.py
+│
+├── rag/
+│   ├── __init__.py
+│   ├── chunker.py
+│   ├── generator.py
+│   ├── loader.py
+│   ├── ranker.py
+│   ├── retriever.py
+│   └── vector_store.py
+│
+├── tests/
+│   └── ...
 │
 ├── evaluation/
 │   ├── visible-cases.json
@@ -784,8 +785,7 @@ For example:
 └── data/
     ├── orders.json
     └── orders-data-dictionary.md
-
-
+```
 ---
 
 # Conclusion
